@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "082de1b3f0d4dedb",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e920e04191f8196",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0e18674061b9a09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Authentication Vulnerabilities.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Authentication Vulnerabilities"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2370b6a9a1858af7",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a4a35a8ea5e1fbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2e1340fa0ebb9a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "dd0a9b3916768b69",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "426bc02ff54bd0c4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "18b8aaec01af7ff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3a9d82bc4e8140a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "944fe289d92ce35d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SQL Injection.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de SQL Injection"
+            }
+          },
+          {
+            "id": "ad0bf31ef7111a10",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SQL Injection.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de SQL Injection"
+            }
+          },
+          {
+            "id": "1b662fdbf96208b0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "421a85f5398b670d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SQL Injection.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de SQL Injection"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Crear nueva base": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "e0e18674061b9a09",
+  "lastOpenFiles": [
+    "Cross-site Scripting (XSS).md",
+    "Authentication Vulnerabilities.md",
+    "Access Control Vulnerabilities.md",
+    "Path Traversal.md",
+    "DOM-Based Vulnerabilities.md",
+    "Server-side Request Forgery (SSRF).md",
+    "HTTP Request Smuggling.md",
+    "Clickjacking.md",
+    "Server-side Template Injection (SSTI).md",
+    "XML External Entity Injection (XXE).md",
+    "OS Command Injection.md",
+    "Cross-site Request Forgery (CSRF).md",
+    "Cross-origin Resource Sharing (CORS).md",
+    "SQL Injection.md",
+    "imagenes/header_http-request-smuggling_splitting.png",
+    "imagenes/body_http-request-smuggling_CRLF.png",
+    "imagenes/request_http-request-smuggling_XSS.png",
+    "imagenes/headers_http-request-smuggling_CRLF.png",
+    "imagenes/request_http-request-smuggling_cookie.png",
+    "Pasted image 20250726164215.png",
+    "imagenes/response_http-request-smuggling_reveal-header.png",
+    "imagenes/request_http-request-smuggling_reveal-header.png",
+    "Pasted image 20250726131912.png",
+    "imagenes/response_basic_CORS.png",
+    "Blind SSRF with Shellshock exploitation.md",
+    "imagenes",
+    "Bienvenido.md"
+  ]
+}
