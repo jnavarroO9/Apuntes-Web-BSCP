@@ -54,7 +54,6 @@ El inicio de sesión envía una petición al endpoint `/login`:
 
 ``` http
 POST /login HTTP/2
-
 Host: vulnerable.com
 Cookie: session=MPbu2q1gY0FYLs2Z4JaIhzaHgnmvd01l
 
@@ -65,7 +64,6 @@ El servidor asigna una cookie ``verify`` y redirige a `/login2`. La petición a 
 
 ``` http
 GET /login2 HTTP/2
-
 Host: vulnerable.com
 Cookie: session=MPbu2q1gY0FYLs2Z4JaIhzaHgnmvd01l; verify=wiener
 ```
@@ -76,7 +74,6 @@ Finalmente, para enviar el código se realiza la siguiente petición:
 
 ``` http
 POST /login2 HTTP/2
-
 Host: vulnerable.com
 Cookie: session=MPbu2q1gY0FYLs2Z4JaIhzaHgnmvd01l; verify=wiener
 
