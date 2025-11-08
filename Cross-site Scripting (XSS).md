@@ -236,7 +236,11 @@ Para evaluar el CSP en busca de posibles riesgos, se puede hacer mediante la her
 	``` html
 	<link rel='canonical' href='http://loquesea.com' accesskey='x' onclick='alert()'>
 	```
-	
+
+- Se puede ofuscar un atributo de un elemento html alterando entre mayúsculas y minúsculas.
+	``` html
+	<img src=0 onErROr=alert`1`>
+	```
 ### Javascript
 
 - Si añades más parámetros de los esperados a una llamada de función, la función se ejecutará con los primeros parámetros esperados, pero se evaluarán los parámetros añadidos:
