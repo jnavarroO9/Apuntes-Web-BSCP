@@ -149,4 +149,4 @@ file_put_contents($outfile, generate_base_phar($payload, $prefix));
 */
 ```
 
-*\*Nota*: modificar **//pop exploit class** con las clases necesarias para el exploit, y **//make jpg** con los valores correctos de imagen input y output.
+*\*Nota*: modificar **//pop exploit class** con las clases necesarias para el exploit, y **//config for jpg** con los valores correctos de imagen input y output.

