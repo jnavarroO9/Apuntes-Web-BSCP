@@ -55,7 +55,7 @@ donde
 
 - En MySQL y Microsoft -> **group_concat()** o **group_concat(** COLUMN SEPARATOR ':' **)**
 - En PostgreSQL -> **string_agg(** COLUMN, SEPARATOR **)**
-- En Oracle -> **listagg(** COLUMN, SEPARATOR **)**
+- En Oracle -> **listagg(** COLUMN, SEPARATOR **)**. Tirar de ROWNUM=x si hay muchas filas.
 
 -----------
 # Time delays
