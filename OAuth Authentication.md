@@ -219,7 +219,7 @@ Esto a veces devuelve un archivo de configuración JSON con información clave, 
 
 En este flow, la aplicación cliente recibe el token de acceso a través del fragmento URL en el endpoint `/callback`. Sin embargo, si la aplicación quiere mantener la sesión después de que el usuario cierre la página, necesita guardar los datos del usuario (normalmente el ID de usuario y el token de acceso) en algún lugar.
 
-Para ello, la aplicación cliente normalmente mandará esta información al servidor en una petición `POST`, que asigna la cookie de sesión. Esta petición es prácticamente equivalente a un formulario clásico de usuario-contraseña, pero en este caso se confía en la información que manda el usuario-
+Para ello, la aplicación cliente normalmente mandará esta información al servidor en una petición `POST`, que asigna la cookie de sesión. Esta petición es prácticamente equivalente a un formulario clásico de usuario-contraseña, pero en este caso se confía en la información que manda el usuario.
 
 En el implicit flow, esta petición está expuesta para los atacantes a través de sus navegadores. Esto puede ser vulnerable si la aplicación cliente no valida correctamente que el token de acceso coincide con los otros datos de la petición. En este caso, un atacante puede simplemente cambiar los parámetros para hacerse pasar por otro usuario.
 

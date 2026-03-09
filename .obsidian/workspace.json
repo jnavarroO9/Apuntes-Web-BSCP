@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cedb8ec7a33a0f59",
+            "id": "28034017f4201bab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OAuth Authentication.md",
+                "file": "File Upload Vulnerabilities.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OAuth Authentication"
+              "title": "File Upload Vulnerabilities"
             }
           }
         ]
@@ -169,11 +169,19 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "cedb8ec7a33a0f59",
+  "active": "28034017f4201bab",
   "lastOpenFiles": [
-    "WebSockets.md",
+    "imagenes/Polyglot_File_Upload.png",
+    "imagenes/Path_Traversal_File_Upload.png",
+    "imagenes/Content-Type_File_Upload.png",
+    "Pasted image 20260307204959.png",
+    "imagenes/Web_Shell_File_Upload 1.png",
+    "File Upload Vulnerabilities.md",
+    "imagenes/Web_Shell_File_Upload.png",
     "OAuth Authentication.md",
     "HTTP Request Smuggling.md",
+    "DOM-Based Vulnerabilities.md",
+    "WebSockets.md",
     "OS Command Injection.md",
     "Cross-site Request Forgery (CSRF).md",
     "Access Control Vulnerabilities.md",
@@ -187,7 +195,6 @@
     "imagenes/AuthorizationCode_OAuth.png",
     "XML External Entity Injection (XXE).md",
     "Web Cache Poisoning.md",
-    "DOM-Based Vulnerabilities.md",
     "Cross-origin Resource Sharing (CORS).md",
     "Clickjacking.md",
     "Cross-site Scripting (XSS).md",
@@ -198,13 +205,7 @@
     "imagenes/header_http-request-smuggling_splitting.png",
     "imagenes/body_http-request-smuggling_CRLF.png",
     "imagenes/request_http-request-smuggling_XSS.png",
-    "imagenes/headers_http-request-smuggling_CRLF.png",
-    "imagenes/request_http-request-smuggling_cookie.png",
-    "Pasted image 20250726164215.png",
-    "imagenes/response_http-request-smuggling_reveal-header.png",
-    "imagenes/request_http-request-smuggling_reveal-header.png",
     "Blind SSRF with Shellshock exploitation.md",
-    "imagenes",
-    "Bienvenido.md"
+    "imagenes"
   ]
 }
