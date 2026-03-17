@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File Upload Vulnerabilities.md",
+                "file": "Json Web Tokens (JWT).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Upload Vulnerabilities"
+              "title": "Json Web Tokens (JWT)"
             }
           }
         ]
@@ -171,14 +171,18 @@
   },
   "active": "28034017f4201bab",
   "lastOpenFiles": [
+    "OAuth Authentication.md",
+    "Json Web Tokens (JWT).md",
+    "imagenes/asymmetric-key_JWT.png",
+    "imagenes/symmetric-key_JWT.png",
+    "imagenes/JWT-JWS-JWE_JWT.png",
+    "File Upload Vulnerabilities.md",
     "imagenes/Polyglot_File_Upload.png",
     "imagenes/Path_Traversal_File_Upload.png",
     "imagenes/Content-Type_File_Upload.png",
     "Pasted image 20260307204959.png",
     "imagenes/Web_Shell_File_Upload 1.png",
-    "File Upload Vulnerabilities.md",
     "imagenes/Web_Shell_File_Upload.png",
-    "OAuth Authentication.md",
     "HTTP Request Smuggling.md",
     "DOM-Based Vulnerabilities.md",
     "WebSockets.md",
@@ -192,7 +196,6 @@
     "Business Logic Vulnerabilities.md",
     "imagenes/Implicit_OAuth.png",
     "Insecure Deserialization.md",
-    "imagenes/AuthorizationCode_OAuth.png",
     "XML External Entity Injection (XXE).md",
     "Web Cache Poisoning.md",
     "Cross-origin Resource Sharing (CORS).md",
@@ -202,9 +205,6 @@
     "Path Traversal.md",
     "Server-side Request Forgery (SSRF).md",
     "Server-side Template Injection (SSTI).md",
-    "imagenes/header_http-request-smuggling_splitting.png",
-    "imagenes/body_http-request-smuggling_CRLF.png",
-    "imagenes/request_http-request-smuggling_XSS.png",
     "Blind SSRF with Shellshock exploitation.md",
     "imagenes"
   ]
