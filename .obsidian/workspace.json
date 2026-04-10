@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Json Web Tokens (JWT).md",
-                "mode": "preview",
+                "file": "Race conditions.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Json Web Tokens (JWT)"
+              "title": "Race conditions"
             }
           }
         ]
@@ -169,20 +169,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "28034017f4201bab",
+  "active": "c2e1340fa0ebb9a3",
   "lastOpenFiles": [
-    "OAuth Authentication.md",
+    "imagenes/single-endpoint-collision_RaceCond.png",
+    "imagenes/rate-limit-delay_RaceCond.png",
+    "imagenes/high-jitter_RaceCond.png",
+    "imagenes/Align-Multi-endpoint_RaceCond.png",
+    "Race conditions.md",
+    "imagenes/Collitions_RaceCond.png",
+    "imagenes/Jitter-async_RaceCond.png",
+    "imagenes/Jitter-sync_RaceCond.png",
+    "imagenes/Limit-Overrun-Concurrent_RaceCond.png",
+    "imagenes/Limit-Overrun-Sequential_RaceCond.png",
+    "GraphQL API Vulnerabilities.md",
     "Json Web Tokens (JWT).md",
+    "OAuth Authentication.md",
     "imagenes/asymmetric-key_JWT.png",
     "imagenes/symmetric-key_JWT.png",
-    "imagenes/JWT-JWS-JWE_JWT.png",
     "File Upload Vulnerabilities.md",
-    "imagenes/Polyglot_File_Upload.png",
-    "imagenes/Path_Traversal_File_Upload.png",
-    "imagenes/Content-Type_File_Upload.png",
-    "Pasted image 20260307204959.png",
-    "imagenes/Web_Shell_File_Upload 1.png",
-    "imagenes/Web_Shell_File_Upload.png",
     "HTTP Request Smuggling.md",
     "DOM-Based Vulnerabilities.md",
     "WebSockets.md",
@@ -192,9 +196,7 @@
     "SQL Injection.md",
     "Authentication Vulnerabilities.md",
     "Web Cache Deception.md",
-    "GraphQL API Vulnerabilities.md",
     "Business Logic Vulnerabilities.md",
-    "imagenes/Implicit_OAuth.png",
     "Insecure Deserialization.md",
     "XML External Entity Injection (XXE).md",
     "Web Cache Poisoning.md",
@@ -205,7 +207,6 @@
     "Path Traversal.md",
     "Server-side Request Forgery (SSRF).md",
     "Server-side Template Injection (SSTI).md",
-    "Blind SSRF with Shellshock exploitation.md",
     "imagenes"
   ]
 }
